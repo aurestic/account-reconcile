@@ -115,7 +115,10 @@ export class ReconcileController extends KanbanController {
             resId = record.resId;
         }
         if (this.state.selectedRecordId && this.state.selectedRecordId !== resId) {
-            if (this.form_controller && this.form_controller.model.root.isDirty) {
+            // The form controller exposes itself in setup(), before its model has
+            // loaded the record, so model.root is undefined while loading. Selecting
+            // another record during that time must not crash (OCA issue #806).
+            if (this.form_controller?.model?.root?.isDirty) {
                 await this.form_controller.model.root.save({
                     noReload: true,
                     stayInEdition: true,
