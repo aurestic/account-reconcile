@@ -48,7 +48,7 @@ msgstr "Resumen de conciliación de cuenta"
 #. module: account_reconcile_oca
 #: model:ir.model.fields,field_description:account_reconcile_oca.field_account_account_reconcile__active
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #. module: account_reconcile_oca
 #: model:ir.model.fields,field_description:account_reconcile_oca.field_account_account_reconcile__add_account_move_line_id
@@ -112,7 +112,7 @@ msgstr "Precisión analítica"
 #. module: account_reconcile_oca
 #: model:ir.model.fields,field_description:account_reconcile_oca.field_account_reconcile_model__search_journal_id
 msgid "Applies on Journal"
-msgstr ""
+msgstr "Se aplica en el diario"
 
 #. module: account_reconcile_oca
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.bank_statement_line_form_reconcile_view
@@ -492,12 +492,12 @@ msgstr "Nada para conciliar"
 #. odoo-javascript
 #: code:addons/account_reconcile_oca/static/src/components/account_reconcile_oca_data/account_reconcile_oca_data.xml:0
 msgid "Open Balance"
-msgstr ""
+msgstr "Saldo pendiente"
 
 #. module: account_reconcile_oca
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.bank_statement_line_form_reconcile_view
 msgid "Other Info"
-msgstr ""
+msgstr "Otra información"
 
 #. module: account_reconcile_oca
 #. odoo-javascript
@@ -521,7 +521,7 @@ msgstr ""
 #. module: account_reconcile_oca
 #: model:ir.model.fields,field_description:account_reconcile_oca.field_account_bank_statement_line__previous_manual_amount_in_currency
 msgid "Previous Manual Amount In Currency"
-msgstr ""
+msgstr "Importe manual anterior en divisa"
 
 #. module: account_reconcile_oca
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.account_move_line_search_reconcile_view
@@ -598,7 +598,7 @@ msgstr "Conciliado"
 #. module: account_reconcile_oca
 #: model:ir.ui.menu,name:account_reconcile_oca.menu_account_reconcile_model
 msgid "Reconciliation Models"
-msgstr ""
+msgstr "Modelos de conciliación"
 
 #. module: account_reconcile_oca
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.bank_statement_line_form_reconcile_view
@@ -614,7 +614,7 @@ msgstr "Reversión de: %s"
 #. module: account_reconcile_oca
 #: model:ir.model,name:account_reconcile_oca.model_account_reconcile_model_line
 msgid "Rules for the reconciliation model"
-msgstr ""
+msgstr "Reglas del modelo de conciliación"
 
 #. module: account_reconcile_oca
 #: model_terms:ir.ui.view,arch_db:account_reconcile_oca.account_move_line_search_reconcile_view
